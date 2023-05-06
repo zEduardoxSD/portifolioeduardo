@@ -27,7 +27,6 @@ body{
 }
 
 section{
-    min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 .header{
@@ -57,11 +56,6 @@ section{
 .navbar a:hover,
  .navbar a.active {
     color: var(--main-color);
-}
-#menu-icon {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    display: none;
 }
 .home{
     display: flex;
@@ -129,7 +123,22 @@ section{
     font-size: medium;
 }
 
-.videos {
-    font-size: 1.3rem;
+.title {
+    font-size: 1.5rem;
     color: var(--text-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.imgpg {
+    height: 500px;
+    width: 500px;
+    margin-left: 35%;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

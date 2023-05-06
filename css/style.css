@@ -69,7 +69,7 @@ section{
     align-items: center;
 }
 .home-img img {
-    width: 35vw;
+    width: 25vw;
 }
 .home-content h3 {
     font-size: 3.2rem;
@@ -92,7 +92,7 @@ section{
     align-items: center;
     width: 4rem;
     height: 4rem;
-    background: transparent;
+    background:about-content transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
@@ -126,4 +126,10 @@ section{
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
+    font-size: medium;
+}
+
+.videos {
+    font-size: 1.3rem;
+    color: var(--text-color);
 }
